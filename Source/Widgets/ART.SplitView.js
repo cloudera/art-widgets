@@ -261,7 +261,7 @@ var splitter = {
 		var sideWidth = o[side] + o.dimension.capitalize();
 		var otherSideWidth = o[otherSide] + o.dimension.capitalize();
 		var cs = this.currentSheet;
-		var splitterSize = this.splitterHidden ? 0 : cs["splitter" + o.dimension.capitalize()];
+		var splitterSize = this.splitterHidden ? 0 : cs["splitter" + o.dimension.capitalize()].toInt();
 		width = width.limit(0, cs[o.dimension] - splitterSize);
 		return {
 			side: side,
