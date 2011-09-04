@@ -11,6 +11,9 @@ copyright: "&copy; [MooTools](http://mootools.net)"
 authors: "[The MooTools development team](http://mootools.net/developers)"
 
 sources:
+  - "Source/Widgets/Simple.History.js"
+  - "Source/Widgets/Simple.Window.js"
+  - "Source/Widgets/Simple.Browser.js"
   - "Source/UI/UI.js"
   - "Source/UI/UI.Sheet.js"
   - "Source/UI/UI.Widget.js"
